@@ -1,0 +1,99 @@
+# Nephron --- A Habitat With a Kidney
+
+Data-Based simulation system optimizing food and water filtration systems
+in space
+
+## 1. Tools needed
+
+### Required
+
+-   **A modern web browser** --- Google Chrome, Microsoft Edge, Firefox,
+    or Safari --- to run and test the site.
+-   **The project files** --- especially `index.html`. Keep the
+    `index.html` and `README.md` files together in the project folder.
+
+### Recommended for editing
+
+-   **Visual Studio Code (VS Code)** --- a free code editor for changing
+    the HTML, CSS, and JavaScript in `index.html`.
+-   **A file extraction tool** --- such as Windows File Explorer's
+    built-in ZIP extraction, to unpack the downloaded project ZIP.
+
+### Optional
+
+-   **Git and GitHub** --- useful for tracking changes, collaborating,
+    and publishing the site.
+-   **A hosting service** --- such as GitHub Pages, Netlify, or Vercel,
+    if you want other people to access the website online.
+-   **Lovable** --- if you want to integrate or rebuild the prototype
+    inside your existing Lovable project. The files may need adapting to
+    Lovable's project structure.
+
+You do **not** need Python, a package manager, a database, or a
+backend server to run this version. It is a static site built with HTML,
+CSS, and JavaScript, and it has no required dependency installation.
+
+## 2. How to run the code locally
+
+The fastest option is to open the site directly in your browser:
+
+1.  Download `nephron-website-prototype.zip`.
+2.  Extract the ZIP file to a folder on your computer.
+3.  Open the extracted `nephron-site` folder.
+4.  Double-click `index.html`.
+5.  The website should open in your default browser. If it does not,
+    right-click `index.html`, choose **Open with**, and select Chrome,
+    Edge, Firefox, or another modern browser.
+
+No build or compilation step is needed. Most interactive features should
+work directly from the local file.
+
+## 3. How to view and edit the code with VS Code
+
+1.  Install Visual Studio Code from <https://code.visualstudio.com/>.
+2.  Extract the project ZIP if you have not already.
+3.  In VS Code, choose **File → Open Folder** and select the
+    `nephron-site` folder.
+4.  Open `index.html` in the Explorer panel.
+5.  Edit the HTML, CSS, or JavaScript in the file, then save with
+    **Ctrl+S** (Windows/Linux) or **Cmd+S** (macOS).
+6.  Switch to the browser and refresh the page to see your changes.
+
+The current prototype keeps its page structure, styles, and interactive
+JavaScript in `index.html`, so you do not need to configure a separate
+build system.
+
+## 4. How to publish it online
+
+For a basic static deployment, upload the `nephron-site` folder to a
+static hosting service such as GitHub Pages, Netlify, or Vercel and
+follow that service's deployment instructions. Keep `index.html` at the
+published site's root so the host can find the homepage.
+
+If you want to use this code in an existing Lovable app, do not assume
+that uploading the ZIP alone will merge it into the project. Import or
+adapt the HTML and its styling/logic to the structure used by that
+Lovable project.
+
+## Features
+
+-   Overview, simulator, mission report, data & sources, learn, and
+    impact/about sections
+-   Adjustable destination, crew size, and mission duration
+-   Interactive dust storm, water contamination, and crop failure
+    scenarios
+-   Triage actions and cascading system indicators
+-   Shareable run links encoded in URL parameters
+-   Searchable parameter/source table
+-   Responsive layout, keyboard-accessible controls, status text beyond
+    color, and reduced-motion support
+-   Hand-built CSS/SVG-like visual motifs; no stock or AI-generated
+    images
+
+## Important limitations
+
+This is not a validated engineering simulator.
+Several numerical values are explicitly illustrative assumptions and
+must be verified against primary sources before presenting them as
+fact. Health indicators are not medical diagnoses.
+Oxygen, CO2, pressure, radiation, and sleep are out of scope.
